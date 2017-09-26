@@ -12,7 +12,6 @@ int led3 = TX;
 double r1 = 0, g1 = 0, b1 = 0, r2 = 0, b2 = 0, g2 = 0, dim = 0;
 
 String print, t;
-
 bool nightTime = false, party = false, userColor = false, strobe = false, rain = false, initParty = false, initRain = true, rainOff = false, initNight = true, nightOff = false;
 
 Timer timer(7200000, LEDTimeOut);
