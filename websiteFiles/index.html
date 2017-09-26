@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.3.2/jquery.min.js" type="text/javascript" charset="utf-8"></script>
+<link rel="stylesheet" type="text/css" href="css/index.css">
+
+
+<title> Particle LED Controller </title>
+<body id="col" class = "whole" >
+
+<script src="js/index.js"></script>
+
+<style>
+
+
+</style>
+
+
+<center>
+<head>
+<h1>Particle LED Controller</h1>
+<h2 style="background-color: #FFFFFF">Connection status: <span style="color:#FF0000";>Offline</span> <h2>
+<h3> <span1></span1></h3>
+</head>
+
+<div class = "columns1">
+
+
+<button class="button button10" id = "party">Party</button>
+<br>
+<button class="button button1" id = "red">Red</button>
+<br>
+<button class="button button2" id = "green">Green</button>
+<br>
+<button class="button button3" id = "blue">Blue</button>
+<br>
+<button class="button button4" id = "orange">Orange</button>
+<br>
+<button class="button button5" id = "yellow">Yellow</button>
+<br>
+<button class="button button6" id = "fuschia">Fuschia</button>
+<br>
+<button class="button button7" id = "aqua">Aqua</button>
+<br>
+<button class="button button8" id = "white">White</button>
+<br>
+<button class="button button9" id = "off">Off</button>
+<br>
+</div>
+
+
+<form class = "form" name=f1 action="https://api.particle.io/v1/devices/<***insert device id here***>/dim?access_token=<***insert access token here***>" method="POST">
+Dim LEDs (Current Color)
+<br>
+<input type=range name="arg" value = "100">
+<br>
+<input type="submit" value="Submit Dim" class = "button button11">
+<br>
+</form>
+</div>
+
+</body>
+</html>
