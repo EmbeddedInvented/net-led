@@ -3,7 +3,7 @@ Controlling multiple LED Strips over the internet via a Particle Photon
 
 ## Description
 this is a relatively polished, simple HTML GUI as well as a generic Particle Photon backend for controlling LED lights via Particle Functions. 
-I created this as a way for my Roomates an I to easily control RGB lights in our kitchen as well as living room without breaking the bank (<$50 in total for 2 5m strips + Particle Photon). The HTML frontend is lightweight and is easy to use on smartphones, having large and simple buttons. The code running on the Particle is capable of being used for other RGB lighting tasks as it is not tied to the HTML website in any way. The website only passes standard RGB Hex values to the Photon.
+I created this as a way for my roommates and I to easily control RGB lights in our kitchen as well as living room without breaking the bank (<$50 in total for 2 5m strips + Particle Photon). The HTML frontend is lightweight and is easy to use on smartphones, having large and simple buttons. The code running on the Particle is capable of being used for other RGB lighting tasks as it is not tied to the HTML website in any way. The website only passes standard RGB Hex values to the Photon.
 #### Features:
 * Smooth Fading between color inputs
 * Website Color and status feedback 
@@ -14,7 +14,7 @@ I created this as a way for my Roomates an I to easily control RGB lights in our
 ## Quick Start
   1. Flash your Photon using the "particle.ino" file 
   2. Connect a **Common Anode** RGB Led Strip or controller to pins D0 (Red), D1 (Green), D2 (Blue). (If only using a single RGB LED, remember to use a current limiting resistor).
-  3. Edit the "index.js" and "index.html" files to include your unique device ID as well as your Access token. There are 2 URLS to change in the js file, and 1 in the HTML file. The Device ID can be found by going to the Particle console, and the your Access token is found by going to the IDE -> settings. **Replace the angle brackets and everything betwen them <>**
+  3. Edit the "index.js" and "index.html" files to include your unique device ID as well as your Access token. There are 2 URLS to change in the .js file, and 1 in the HTML file. The Device ID can be found by going to the Particle console, and the your Access token is found by going to the IDE -> settings. **Replace the angle brackets and everything between them <>**
   4. Clicking the buttons within the open HTML file should now control the LED(s)!
   
  ## IFTTT Integration
