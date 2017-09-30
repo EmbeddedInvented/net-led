@@ -13,7 +13,7 @@ I created this as a way for my roommates and I to easily control RGB lights in o
 
 ## Quick Start
   1. Flash your Photon using the "particle.ino" file 
-  2. Connect a **Common Anode** RGB Led Strip or controller to pins D0 (Red), D1 (Green), D2 (Blue). (If only using a single RGB LED, remember to use a current limiting resistor).
+  2. Connect a **Common Cathode** RGB Led Strip or controller to pins D0 (Red), D1 (Green), D2 (Blue). (If only using a single RGB LED, remember to use a current limiting resistor).
   3. Edit the "index.js" and "index.html" files to include your unique device ID as well as your Access token. There are 2 URLS to change in the .js file, and 1 in the HTML file. The Device ID can be found by going to the Particle console, and the your Access token is found by going to the IDE -> settings. **Replace the angle brackets and everything between them <>**
   4. Clicking the buttons within the open HTML file should now control the LED(s)!
   
